@@ -33,10 +33,10 @@ public class homePage {
 	public void home_page_should_loaded_sucessfully() {
 		
 		
-//		globalsearchPageObj home= new globalsearchPageObj(driver);
-//		String homepageSOMTitle = driver.getTitle();
-//		org.testng.Assert.assertEquals(homepageSOMTitle, "Education & Research at NYU Langone Health | NYU Langone Health");
-//		home.globalsearchfromTopClick();
+		globalsearchPageObj home= new globalsearchPageObj(driver);
+		String homepageSOMTitle = driver.getTitle();
+		org.testng.Assert.assertEquals(homepageSOMTitle, "Education & Research at NYU Langone Health | NYU Langone Health");
+		home.globalsearchfromTopClick();
 		//driver.close();
 	}
 
